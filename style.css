@@ -1,0 +1,211 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    /*Tipo de letra*/
+    font-family: 'Benne', serif;
+}
+
+/* body */
+body{
+    background: #f7f7f7;
+}
+
+/* Editando Cabecera */
+header{
+    /*Cambiando color*/
+    background: #78b2c5;
+}
+
+.titulo{
+    /*Centrando el titulo*/
+    text-align: center;
+    /*Margen*/
+    margin-bottom: 5px;
+}
+
+/*Los id se llaman con un numeral antes*/
+#descripcion{
+    /*Centrando la descripcion*/
+    text-align: center;
+    /*Margen*/
+    margin: 0;
+    padding: 0;
+    /*Cambiando tamaño de fuente*/
+    font-size: 15px;
+    /*Cambiando color a la letra de la descripcion*/
+    color: #546a76;
+}
+
+/* Editando Navegacion de Pagina*/
+.navegacion{
+    /*Cambiando color*/
+    background: #95cee0;
+    /*Dandole un espacio*/
+    padding: 20px;
+}
+
+.navegacionpagina{
+    /*Cambiando el tamaño de fuente*/
+    font-size: 20px;
+    /*Dandole un espaciado al texto*/
+    padding: 10px;
+    /*Cambia el tipo de elemento de linea*/
+    display: inline;
+    
+}
+
+.navegacionpagina a{
+    /*Quitandole el borde a las letras*/
+    text-decoration: none;
+    /*Sirve para separar el texto*/
+    margin-right: 10px;
+    padding: 10px;
+    /*Cambiandole el color a las letras*/
+    color: white;
+}
+
+.navegacionpagina a:hover{
+    color: black;
+}
+
+/*Redes*/
+
+.Redes{
+    /*Pasando al otro lado los links de las redes*/
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    /*Pasandolo a la derecha*/
+    float: right;
+    top: -11px;
+}
+
+.Redes a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.Redes a:hover{
+    color: black;
+}
+
+/*Seccion de noticias*/
+#principal{
+    /*Hace que la seccion de noticias no ocupe todo el espacion*/
+    max-width: 75%;
+    /*Los elementos flotan*/
+    float: left;
+}
+
+.titulonoticias{
+    /*Alineando el texto*/
+    text-align: center;
+    /*Margen hacia adentro*/
+    padding: 20px;    
+}
+
+.textonoticias{
+    padding: 20px;
+    /*Justificando el texto*/
+    text-align: justify;
+    /*Separando un poco la imagen*/
+    padding-bottom: 5px;
+}
+
+/*Imagenes*/
+.imagennoticia{
+    /*Cambiandole ancho a la imagen*/
+    width: 500px;
+    /*Cambiandole altura a la imagen*/
+    height: 250px;
+    /*Centrando la imagen*/
+    position: relative;
+    left: 350px;
+    padding: 15px;
+}
+
+/*Trabajando con el aside*/
+
+aside{
+    float: right;
+    padding: 80px;
+}
+
+.fotobarra{
+    /*Poner redonda la foto*/
+    border-radius: 50%;
+}
+
+.nombreautor{
+    /*Linearlo al centro*/
+    text-align:center;
+}
+
+aside p{
+    /*Centrando el texto*/
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+aside ul li{
+    /*Cambiandole los circulitos a los destacados*/
+    list-style: square;
+    /*Centrando los destacados*/
+    text-align: center;
+    padding: 10px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #546a76;
+}
+
+aside ul li a:hover{
+    color: black;
+}
+
+/*Trabajando con el footer*/
+#footer{
+    /*Cambiandole de posicio*/
+    position: relative;
+    /*Margen*/
+    margin: 0 auto;
+    /*Ancho*/
+    width: 710px;
+    /*separandolo de la imagen*/
+    top: 50px;
+}
+
+form fieldset{
+    /*Separar el contactame del cuadrito*/
+    padding: 20px;
+    background: #c788ea;
+}
+
+form fieldset legend{
+    font-size: 25;
+    padding: 20px;
+}
+
+form fieldset label{
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+button{
+    border-radius: 10px;
+    width: 100px;
+    color: orange;
+}
+
+
+
+
+
+
+
+
